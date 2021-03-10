@@ -1,0 +1,117 @@
+body { /* Estilos de body responsive */
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/home.png');
+    /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-position: center center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+
+    /* display: inline-flex;
+    flex-direction: column;
+    align-items: stretch; */
+    /* float: middle; */
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    display: inline-block;
+}
+
+header{
+    width: 618px;
+    display: inline-block;
+    /* margin-left: 50px; */
+    /* text-align: center; */
+}
+
+h2 {
+    height: 29px;
+    color: white;
+    font-family: Muli;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    float: right;
+    margin-top: -20px;
+}
+
+
+.temperaturas{
+    width: 1000px;
+    height: 530px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: rgba(48, 108, 119, 0.7);
+}
+
+.top5{
+    width: 400px;
+    height: 530px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: rgba(48, 108, 119, 0.7);
+}
+.top5 p{
+    width: 327px;
+    height: 57px;
+    color: #ffffff;
+    font-family: "Muli Light";
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: center;
+}
+
+.top h1 {
+    width: 20px;
+    height: 25px;
+    color: #ffffff;
+    font-family: "Muli Light";
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+}
+.top p{
+    width: 66px;
+    height: 49px;
+    color: #ffffff;
+    font-family: "Muli Light";
+    font-size: 48px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: right;
+}
+.top-city p{
+    width: 140px;
+height: 42px;
+color: #ffffff;
+font-family: Muli;
+font-size: 14px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "CP: ,  Ciu" */
+font-family: Muli;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+/* Text style for "Barcelona" */
+font-size: 18px;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}

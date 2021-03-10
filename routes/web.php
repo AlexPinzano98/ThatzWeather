@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ClimaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [ClimaController::class,'index']);
+
+Route::post('/filtrar', [ClimaController::class,'buscarTemperaturas']);
+
+Route::post('/filtrarResults', [ClimaController::class,'buscarTemperaturasResults']);
+
+
